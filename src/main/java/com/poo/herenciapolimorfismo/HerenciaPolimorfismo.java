@@ -5,8 +5,7 @@
 package com.poo.herenciapolimorfismo;
 
 import com.poo.herenciapolimorfismo.modelo.Animal;
-import com.poo.herenciapolimorfismo.modelo.Gato;
-import com.poo.herenciapolimorfismo.modelo.Perro;
+import com.poo.herenciapolimorfismo.modelo.*;
 
 /**
  *
@@ -32,6 +31,7 @@ mascota2.hacerSonido();
 Animal[] animales = {
   new Perro("Rex"),
   new Gato("Silvestre"),
+  new Pez("Dory"),
   new Animal("Piolin")
 };
 
