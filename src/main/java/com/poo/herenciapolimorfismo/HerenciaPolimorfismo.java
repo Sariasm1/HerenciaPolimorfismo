@@ -33,24 +33,14 @@ Animal[] animales = {
   new Gato("Silvestre"),
   new Pez("Dory"),
   new Pajaro("Max"),
-  new PerroGrande("Zoe", 3, "Golden Retriever", 5),
+  new PerroGrande("Zoe", 3, 5,  "Golden Retriever"),
   new Animal("Piolin")
 };
 
+
 for (Animal animal : animales) {
-    // Downcasting
-    if(animal instanceof Pajaro) {
-        ((Pajaro) animal).volar();
-    }
-    else
-    {
-       if(animal instanceof Pez){
-           ((Pez) animal).nadar();
-        } 
-    }
-    
   animal.hacerSonido(); // Polimorfismo
 }
 
-    }
+ }
 }

@@ -28,4 +28,8 @@ public class Pez extends Animal {
     public void hacerSonido() {
       System.out.println(getNombre()+ " hace glu glu!");
     }
+    
+    public void comer(int cantidadHoras) {
+      System.out.println(this.getNombre() + " come durante " + cantidadHoras + " h");
+     }
 }

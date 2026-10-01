@@ -16,12 +16,12 @@ public class PerroGrande extends Perro {
         this.pesoKg = pesoKg;
     }
 
-    public PerroGrande(int pesoKg, String nombre) {
+    public PerroGrande(String nombre, int pesoKg) {
         super(nombre);
         this.pesoKg = pesoKg;
     }
 
-    public PerroGrande(String nombre, int edad, String raza, int pesoKg) {
+    public PerroGrande(String nombre, int pesoKg, int edad, String raza) {
         super(nombre, edad, raza);
         this.pesoKg = pesoKg;
     }
