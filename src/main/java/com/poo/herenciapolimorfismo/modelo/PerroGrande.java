@@ -21,7 +21,7 @@ public class PerroGrande extends Perro {
         this.pesoKg = pesoKg;
     }
 
-    public PerroGrande(int pesoKg, String nombre, int edad, String raza) {
+    public PerroGrande(String nombre, int edad, String raza, int pesoKg) {
         super(nombre, edad, raza);
         this.pesoKg = pesoKg;
     }
@@ -34,6 +34,11 @@ public class PerroGrande extends Perro {
         this.pesoKg = pesoKg;
     }
     
+    
+    @Override
+    public void hacerSonido() {
+      System.out.println(getNombre()+ " hace ¡¡GUAU!!");
+    }
     
     
     
