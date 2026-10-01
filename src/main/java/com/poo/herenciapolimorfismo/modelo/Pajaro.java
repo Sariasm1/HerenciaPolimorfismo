@@ -10,7 +10,7 @@ package com.poo.herenciapolimorfismo.modelo;
  */
 public class Pajaro extends Animal {
 
-    public static int altura=0;
+    private static int altura=0;
     
     public Pajaro(String nombre) {
         super(nombre);

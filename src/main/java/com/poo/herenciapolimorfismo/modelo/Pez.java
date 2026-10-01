@@ -9,7 +9,7 @@ package com.poo.herenciapolimorfismo.modelo;
  * @author Estudiante
  */
 public class Pez extends Animal {
-    public static int profundidad=0;
+    private static int profundidad=0;
     
     public Pez(String nombre) {
         super(nombre);

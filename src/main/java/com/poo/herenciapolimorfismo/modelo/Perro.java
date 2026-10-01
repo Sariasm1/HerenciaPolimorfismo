@@ -11,17 +11,19 @@ package com.poo.herenciapolimorfismo.modelo;
 public class Perro extends Animal {
     private int edad;
     private String raza;
+    private static final String razaDefault = "Chandi";
+    private static final int edadDefault = 0;
     
      public Perro() {
         super("Pongo");
-        this.edad = 0;
-        this.raza = "Chandi";
+        this.edad = edadDefault;
+        this.raza = razaDefault;
     }
     
     public Perro(String nombre){
         super(nombre);
-        this.edad = 0;
-        this.raza = "Chandi";
+        this.edad = edadDefault;
+        this.raza = razaDefault;
     }
 
     public Perro(String nombre, int edad, String raza) {
