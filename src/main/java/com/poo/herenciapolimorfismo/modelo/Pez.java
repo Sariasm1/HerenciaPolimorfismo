@@ -9,6 +9,13 @@ package com.poo.herenciapolimorfismo.modelo;
  * @author Estudiante
  */
 public class Pez extends Animal {
+    public static int profundidad=0;
+    
+    
+    public void nadar(){
+        profundidad+=10;
+        System.out.println("El pez "+ getNombre() + " esta nadando a una profunidad de " + profundidad + "m");
+    }
     
     public Pez(String nombre) {
         super(nombre);
